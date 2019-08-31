@@ -1,12 +1,12 @@
 import React from 'react';
-
-const Titles = (props) => {
+class Titles extends React.Component {
+  render() {
     return (
-        <div>
-            <h1>Weather App </h1>
-            <p> Helps you find weather conditions in cities... </p>
-        </div>
+      <div>
+        <h1 className="title-container__title">Weather for you </h1>
+        <p className="title-container__subtitle"> World's weather in your hand </p>
+      </div>
     )
+  }
 }
-
 export default Titles;
