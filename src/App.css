@@ -50,6 +50,17 @@ body {
   font-family: "Merriweather", serif;
 }
 
+.title-container__by {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Merriweather", cursive;
+    text-align: right;
+    text-decoration: darkblue;
+  }
+
 .form-container {
   background-color: #0a2333; 
   height: 90vh;
